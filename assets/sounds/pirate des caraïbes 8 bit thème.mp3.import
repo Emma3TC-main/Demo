@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b55vwomfyxyaf"
+path="res://.godot/imported/pirate des caraïbes 8 bit thème.mp3-883f75ff8a572ec40a00a32b0ff01c9a.mp3str"
+
+[deps]
+
+source_file="res://assets/sounds/pirate des caraïbes 8 bit thème.mp3"
+dest_files=["res://.godot/imported/pirate des caraïbes 8 bit thème.mp3-883f75ff8a572ec40a00a32b0ff01c9a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,132 @@
+[gd_scene load_steps=27 format=3 uid="uid://cdhaotudpcvbl"]
+
+[ext_resource type="Script" path="res://scenes/game/levels/objects/damage_object/cannon/cannon_ball.gd" id="1_rp46f"]
+[ext_resource type="Texture2D" uid="uid://cg7lu0ntda4jd" path="res://assets/Bombs etc/Explosion/Explosion2.png" id="2_xwwb2"]
+[ext_resource type="Texture2D" uid="uid://buvvygni4pwy1" path="res://assets/Bombs etc/Explosion/Explosion3.png" id="3_cy2he"]
+[ext_resource type="Texture2D" uid="uid://x88gxe30m5to" path="res://assets/Bombs etc/Explosion/Explosion4.png" id="4_aabp2"]
+[ext_resource type="Texture2D" uid="uid://cifydh3jw5267" path="res://assets/Bombs etc/Explosion/Explosion6.png" id="5_j834u"]
+[ext_resource type="Texture2D" uid="uid://cdbhhwch0a8rf" path="res://assets/Bombs etc/Explosion/Explosion7.png" id="6_id8cu"]
+[ext_resource type="Texture2D" uid="uid://bgino74k1w7yf" path="res://assets/Bombs etc/Explosion/Explosion8.png" id="7_jclkt"]
+[ext_resource type="Texture2D" uid="uid://cd0w6dr2w6n1s" path="res://assets/Bombs etc/Explosion/Explosion9.png" id="8_4fbqg"]
+[ext_resource type="Texture2D" uid="uid://ccvkpvsg0f45d" path="res://assets/Bombs etc/Explosion/Explosion10.png" id="9_bjel5"]
+[ext_resource type="Texture2D" uid="uid://b8jf2k6bncesg" path="res://assets/Bombs etc/Explosion/Explosion12.png" id="10_dtipo"]
+[ext_resource type="Texture2D" uid="uid://hbn8kxk6q5hu" path="res://assets/Bombs etc/Explosion/Explosion13.png" id="11_8hghq"]
+[ext_resource type="Texture2D" uid="uid://ihayn32g83rr" path="res://assets/Bombs etc/Explosion/Explosion14.png" id="12_0rek7"]
+[ext_resource type="Texture2D" uid="uid://bq2lvyecfkq7f" path="res://assets/Bombs etc/Explosion/Explosion15.png" id="13_j1kli"]
+[ext_resource type="Texture2D" uid="uid://cri1ghyfg7xj6" path="res://assets/Bombs etc/Explosion/Explosion16.png" id="14_t60l2"]
+[ext_resource type="Texture2D" uid="uid://drlv3xpp0jesm" path="res://assets/Bombs etc/Explosion/Explosion17.png" id="15_huw3r"]
+[ext_resource type="Texture2D" uid="uid://b506obvmaebhb" path="res://assets/Bombs etc/Explosion/Explosion18.png" id="16_tbet8"]
+[ext_resource type="Texture2D" uid="uid://cbaidsu12i4rt" path="res://assets/Bombs etc/RollingBomb/RollingBomb2.png" id="17_f774i"]
+[ext_resource type="Texture2D" uid="uid://bndv4kf0u6ymp" path="res://assets/Bombs etc/RollingBomb/RollingBomb3.png" id="18_5ueox"]
+[ext_resource type="Texture2D" uid="uid://cgqnbeni5pjxj" path="res://assets/Bombs etc/RollingBomb/RollingBomb4.png" id="19_ct53j"]
+[ext_resource type="Texture2D" uid="uid://7owd8rmg2gwh" path="res://assets/Bombs etc/RollingBomb/RollingBomb6.png" id="20_quoxx"]
+[ext_resource type="Texture2D" uid="uid://djxsi82m4lf3v" path="res://assets/Bombs etc/RollingBomb/RollingBomb7.png" id="21_ae5ig"]
+[ext_resource type="Texture2D" uid="uid://dx3reiurmgtqu" path="res://assets/Bombs etc/RollingBomb/RollingBomb8.png" id="22_k5e6f"]
+[ext_resource type="Texture2D" uid="uid://khu26233ykws" path="res://assets/Bombs etc/RollingBomb/RollingBomb9.png" id="23_srtu6"]
+[ext_resource type="Texture2D" uid="uid://svq1agvmbmuf" path="res://assets/Bombs etc/RollingBomb/RollingBomb10.png" id="24_65d0e"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7a6pl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ky7wi"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_xwwb2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cy2he")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_aabp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_j834u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_id8cu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_jclkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4fbqg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_bjel5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_dtipo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_8hghq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_0rek7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_j1kli")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_t60l2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_huw3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_tbet8")
+}],
+"loop": false,
+"name": &"explosion",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_f774i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_5ueox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_ct53j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_quoxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ae5ig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_k5e6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_srtu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_65d0e")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="CannonBall" type="RigidBody2D"]
+mass = 0.1
+gravity_scale = 0.5
+inertia = 5.0
+lock_rotation = true
+max_contacts_reported = 1
+contact_monitor = true
+linear_velocity = Vector2(-500, 20)
+script = ExtResource("1_rp46f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_7a6pl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-3, -2)
+scale = Vector2(-0.0628891, 0.0646103)
+sprite_frames = SubResource("SpriteFrames_ky7wi")
+animation = &"idle"
+speed_scale = 2.0
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
